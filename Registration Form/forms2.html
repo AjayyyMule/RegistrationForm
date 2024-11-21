@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Form Info</title>
+    <link rel="stylesheet" href="style.css">
+     
+</head>
+<body>
+    
+    <form action="">
+
+
+<div>
+
+        <label for="uName">Enter Your Name :</label>
+        <input id="uName" type="text" placeholder="Full Name">
+        
+
+        </div>
+
+<br>
+
+        <div>
+        <label for="Age">Age: </label><input id="Age" type="number">
+        </div>
+
+<br>
+
+        <div>
+        <label for="DOB">Date of Birth: </label>
+        <input id="DOB" type="date">
+        </div>
+
+<br>
+
+        <div>
+        <label for="Phone">Enter Phone No: </label>
+        <input id="Phone" type="tel" placeholder="Phone no."  
+        maxlength="10" pattern="[0-9]{10}" required> 
+        </div>
+
+<br>
+
+
+        <div>
+            <label for="Email">Email: </label>
+            <input id="Email" type="email" placeholder="Enter Email">
+        </div>
+<br>
+        <div>
+            <label for="Password">Password</label>
+            <input id="Password" type="password">
+        </div>
+
+<br>
+
+        <div>
+            <label for="Lacation">Select Your Location</label>
+            <select name="" id="Location" required>
+                <option disabled selected value="Select Your Location">Select</option>
+                <option value="Sinhgad">Sinhgad</option>
+                <option value="Rajgad">Rajgad</option>
+                <option value="Torna">Torna</option>
+                <option value="Rajmachi">Rajmachi</option>
+            </select>
+        </div>
+
+        <div>
+            <p>Select Your Subsciption Plan : </p>
+            
+            <input type="radio" name="Subsciption" id="Basic">
+            <label for="Basic">Basic</label>
+
+            <input type="radio" name="Subsciption" id="Premium">
+            <label for="Premium">Premium</label>
+
+            <input type="radio" name="Subsciption" id="VIP">
+            <label for="VIP">VIP</label>
+
+        </div>
+
+        <br>
+        
+
+        <div>
+            <label for="Comments"></label>
+            <textarea name="" id="Comments" placeholder="Ask anything(optional) " ></textarea>
+        </div>
+        <br>
+
+        <div>
+            <input type="checkbox">
+            <label for="checkbox"> <i> I agree all the terms and conditions </i></label>
+        </div>
+
+        <br>
+
+
+        <div>
+                <button type="submit">Submit</button>
+        </div>
+
+    
+        
+
+    </form>
+</body>
+</html>
